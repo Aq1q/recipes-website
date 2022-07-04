@@ -1,2 +1,2 @@
 # Odin-recipes
-Show primitive html skills
+Show primitive HTML skills
