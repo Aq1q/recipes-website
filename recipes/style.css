@@ -1,0 +1,43 @@
+html,
+body{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#63FA74, #A5FA4E);
+    background-attachment: fixed;
+}
+img{
+    width: 20vw;
+    height: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+.box{
+    border-top: 1px gray solid;
+}
+
+header{
+    text-align: center;
+}
+
+.box h2{
+    padding: 2px;
+    margin: 2px;
+}
+.description a{
+    text-align: center;
+}
+.steps li{
+padding: 2px;
+}
+.steps{
+    padding-bottom: 12px;
+}
