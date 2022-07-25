@@ -16,7 +16,6 @@ body {
     align-items: center;
     gap: 40px;
     height: 100%;
-    margin: 0;
 }
 
 #header{
@@ -25,7 +24,6 @@ body {
     align-items: center;
     width: 100%;
     height: 50px;
-    text-align: center;
     background-color: #DEDDCC;
 }
 
@@ -50,6 +48,7 @@ body {
     background-color: white;
     transform: rotate(5deg) scale(0.8);
     filter: grayscale(80%);
+    transition-duration: 0.5s;
 }
 
 a{
@@ -65,7 +64,8 @@ a{
 .recipe-box:hover {
     cursor:pointer;
     transform:rotate(0deg) scale(1);
-    filter: grayscale(0)
+    filter: grayscale(0);
+    transition-duration: 1s;
 }
 
 .recipe-box a span {
