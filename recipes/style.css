@@ -41,11 +41,12 @@ img {
 #main {
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     flex: 1;
-    gap: 40px;
+    gap: 20px;
 }
 
 ul, ol {
@@ -60,6 +61,7 @@ li {
     flex-direction: column;
     align-items: center;
     width: auto;
+    max-width: 500px;
     height: 40px;
     font-size: 0px;
     border: 1px solid black;
@@ -74,7 +76,7 @@ li {
 .box:hover {
     font-size: 16px;
     height: auto;
-    max-height: 300px;
+    max-height: 600px;
     transition-duration: 0.8s;
 }
 
